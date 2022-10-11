@@ -12,11 +12,11 @@
 }
 
 .ds4 .triggers {
-    width: 598px;
-    height: 90px;
+    width: 591px;
+    height: 91px;
     position: absolute;
-    left: 299px;
-    top: 38px;
+    left: 302px;
+    top: 57px;
 }
 
 .ds4 .trigger {
@@ -44,9 +44,9 @@
 
 .ds4 .bumpers {
     position: absolute;
-    width: 672px;
-    height: 23px;
-    left: 263px;
+    width: 673px;
+    height: 16px;
+    left: 260px;
     top: 132px;
 }
 
@@ -154,45 +154,57 @@ background-position: 0 -70px;
 
 .ds4 .button {
     position: absolute;
-    width: 55px;
-    height: 55px;
+    width: 62px;
+    height: 66px;
     background: url(FaceButtons.png);
 }
 
 .ds4 .button.pressed {
-    background-position-y: 55px;
-    /* margin-top: 5px; */
+    background-position-y: 70px;
+    margin-bottom: -6px;
+    margin-top: 5px;
+    width: 61px;
+    height: 67px;
 }
 
 .ds4 .a {
     background-position: 0 0;
-    bottom: 0px;
-    left: 58px;
+    bottom: -17px;
+    left: 50px;
+    width: 64px;
+    height: 66px;
 }
 
 .ds4 .b {
-    background-position: -57px 0;
-    top: 57px;
-    right: -3px;
+    background-position: -64px 0;
+    top: 55px;
+    right: -7px;
+    width: 61px;
+    height: 69px;
 }
 
 .ds4 .x {
-    background-position: -113px 0;
-    top: 57px;
+    background-position: -123px 0;
+    top: 55px;
+    left: -8px;
+    width: 58px;
+    height: 65px;
 }
 
 .ds4 .y {
-    background-position: 55px 0;
-    left: 58px;
-    bottom: 119px;
+    background-position: 63px 0;
+    left: 55px;
+    bottom: 102px;
+    width: 58px;
+    height: 66px;
 }
 
 .ds4 .sticks {
     position: absolute;
-    width: 364px;
+    width: 363px;
     height: 105px;
-    top: 348px;
-    left: 422px;
+    top: 350px;
+    left: 420px;
 }
 
 .ds4 .stick {
