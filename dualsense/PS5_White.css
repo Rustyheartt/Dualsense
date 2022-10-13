@@ -12,11 +12,12 @@
 }
 
 .ds4 .triggers {
-    width: 591px;
+    width: 617px;
     height: 91px;
     position: absolute;
-    left: 302px;
+    left: 289px;
     top: 57px;
+    transform: scale(0.95);
 }
 
 .ds4 .trigger {
@@ -44,14 +45,15 @@
 
 .ds4 .bumpers {
     position: absolute;
-    width: 673px;
-    height: 16px;
-    left: 260px;
+    width: 658px;
+    height: 91px;
+    left: 268px;
     top: 132px;
+    transform: scale(1.03);
 }
 
 .ds4 .bumper.pressed {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .ds4 .bumper.left {
@@ -146,10 +148,10 @@ background-position: 0 -70px;
 
 .ds4 .abxy {
     position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 200px;
-    left: 762px;
+    width: 166px;
+    height: 163px;
+    top: 195px;
+    left: 765px;
 }
 
 .ds4 .button {
@@ -187,7 +189,7 @@ background-position: 0 -70px;
     background-position: -123px 0;
     top: 55px;
     left: -8px;
-    width: 58px;
+    width: 60px;
     height: 65px;
 }
 
