@@ -235,10 +235,11 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 173px;
-    height: 166px;
-    top: 452px;
-    left: 384px;
+    width: 320px;
+    height: 580px;
+    top: 321px;
+    left: 355px;
+    transform: scale(1.01);
 }
 
 .ds4 .face {
@@ -247,42 +248,42 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 84px;
-    height: 97px;
+    width: 120px;
+    height: 144px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
-    width: 52px;
-    height: 40px;
+    width: 139px;
+    height: 153px;
 }
 
 .ds4 .face.up {
-    left: 48px;
-    top: 0;
-    background-position: -22px -43px;
+    left: 35px;
+    top: 53px;
+    background-position: -143px 0px;
 }
 
 .ds4 .face.down {
-    left: 44px;
-    bottom: 0;
+    left: 24px;
+    bottom: 208px;
     background-position: 0px 0;
 }
 
 .ds4 .face.left {
-    top: 45px;
-    left: 0;
-    background-position: 104px 0;
+    top: 143px;
+    left: -63px;
+    background-position: 308px 0;
 }
 
 .ds4 .face.right {
-    top: 45px;
-    right: 0px;
-    background-position: 52px 0;
+    top: 144px;
+    right: 72px;
+    background-position: 157px 0;
 }
 
 .ds4 .face.pressed {
     /* margin-top: 5px; */
-    background-position-y: 52px;
+    background-position-y: 166px;
 }
 
 .ds4.half {
