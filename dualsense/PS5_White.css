@@ -1,10 +1,9 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
     background: url(White_SkinNo_Buttons.png);
-    height: 700px;
-    width: 1200px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
+    height: 1468px;
+    width: 2023px;
+    transform: scale(0.5);
 }
 
 .ds4.disconnected div {
@@ -12,16 +11,15 @@
 }
 
 .ds4 .triggers {
-    width: 617px;
-    height: 91px;
+    width: 1331px;
+    height: 221px;
     position: absolute;
-    left: 289px;
-    top: 57px;
-    transform: scale(0.95);
+    left: 341px;
+    top: 22px;
 }
 
 .ds4 .trigger {
-    width: 99px;
+    width: 212px;
     height: 100%;
     background: url(Trigger_Pressed.png);
     opacity: 0;
@@ -33,7 +31,8 @@
 
 .ds4 .trigger.right {
     float: right;
-    background-position-x: 99px;
+    background-position-x: -223px;
+    background-position-y: 217px;
 }
 
 .ds4 .bumper {
@@ -49,7 +48,6 @@
     height: 91px;
     left: 268px;
     top: 132px;
-    transform: scale(1.03);
 }
 
 .ds4 .bumper.pressed {
@@ -68,8 +66,8 @@
 }
 
 .ds4 .touchpad {
-    width: 350px;
-    height: 300px;
+    width: 57px;
+    height: 101px;
     position: absolute;
     left: 422px;
     top: 74px;
@@ -287,7 +285,7 @@ background-position: 0 -70px;
 }
 
 .ds4.half {
-    margin-top: -300px;
+    margin-top: -297px;
 }
 
 /*END PS4 Controller Styling*/
