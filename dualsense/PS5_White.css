@@ -4,6 +4,7 @@
     height: 1468px;
     width: 2023px;
     transform: scale(0.5);
+    transform-origin: -1052px -643px;
 }
 
 .ds4.disconnected div {
@@ -32,22 +33,22 @@
 .ds4 .trigger.right {
     float: right;
     background-position-x: -223px;
-    background-position-y: 217px;
+    background-position-y: 216px;
 }
 
 .ds4 .bumper {
-    width: 200px;
-    height: 45px;
+    width: 260px;
+    height: 100px;
     background: url(Bumper.png) no-repeat;
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 658px;
-    height: 91px;
-    left: 268px;
-    top: 132px;
+    width: 1394px;
+    height: 113px;
+    left: 314px;
+    top: 182px;
 }
 
 .ds4 .bumper.pressed {
@@ -111,19 +112,19 @@ background-position: 0 -70px;
 
 .ds4 .back, .ds4 .start {
     background: url(Select.png);
-    width: 26px;
-    height: 43px;
+    width: 60px;
+    height: 100px;
     opacity: 0;
 }
 .ds4 .start {
     position: absolute;
-    left: 546px;
-    bottom: -30px;
+    left: 1174px;
+    bottom: -204px;
 }
 .ds4 .back {
     position: absolute;
-    left: 170px;
-    bottom: -30px;
+    left: 329px;
+    bottom: -204px;
 }
 
 
@@ -146,80 +147,80 @@ background-position: 0 -70px;
 
 .ds4 .abxy {
     position: absolute;
-    width: 166px;
-    height: 163px;
-    top: 195px;
-    left: 765px;
+    width: 580px;
+    height: 323px;
+    top: 441px;
+    left: 1491px;
 }
 
 .ds4 .button {
     position: absolute;
-    width: 62px;
-    height: 66px;
+    width: 70px;
+    height: 86px;
     background: url(FaceButtons.png);
 }
 
 .ds4 .button.pressed {
-    background-position-y: 70px;
-    margin-bottom: -6px;
-    margin-top: 5px;
-    width: 61px;
-    height: 67px;
+    background-position-y: 139px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    width: 118px;
+    height: 120px;
 }
 
 .ds4 .a {
-    background-position: 0 0;
-    bottom: -17px;
-    left: 50px;
-    width: 64px;
-    height: 66px;
+    background-position: -11px 0;
+    bottom: 30px;
+    left: 23px;
+    width: 121px;
+    height: 137px;
 }
 
 .ds4 .b {
-    background-position: -64px 0;
-    top: 55px;
-    right: -7px;
-    width: 61px;
-    height: 69px;
+    background-position: -9px 0;
+    top: 24px;
+    right: 308px;
+    width: 118px;
+    height: 133px;
 }
 
 .ds4 .x {
-    background-position: -123px 0;
-    top: 55px;
-    left: -8px;
-    width: 60px;
-    height: 65px;
+    background-position: -636px 0;
+    top: 24px;
+    left: -113px;
+    width: 120px;
+    height: 135px;
 }
 
 .ds4 .y {
-    background-position: 63px 0;
-    left: 55px;
-    bottom: 102px;
-    width: 58px;
-    height: 66px;
+    background-position: 135px 0;
+    left: 24px;
+    bottom: 296px;
+    width: 132px;
+    height: 137px;
 }
 
 .ds4 .sticks {
     position: absolute;
-    width: 363px;
+    width: 684px;
     height: 105px;
-    top: 350px;
-    left: 420px;
+    top: 662px;
+    left: 595px;
 }
 
 .ds4 .stick {
     position: absolute;
     background: url(Sticks.png);
-    height: 94px;
-    width: 94px;
+    height: 235px;
+    width: 235px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -96px;
+    background-position-x: -221px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -192px;
+    background-position-x: -228px;
 }
 
 .ds4 .stick.left {
@@ -234,10 +235,10 @@ background-position: 0 -70px;
 
 .ds4 .dpad {
     position: absolute;
-    width: 125px;
-    height: 126px;
-    top: 220px;
-    left: 286px;
+    width: 173px;
+    height: 166px;
+    top: 452px;
+    left: 384px;
 }
 
 .ds4 .face {
@@ -246,8 +247,8 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up, .ds4 .face.down {
-    width: 37px;
-    height: 52px;
+    width: 84px;
+    height: 97px;
 }
 
 .ds4 .face.left, .ds4 .face.right {
@@ -256,9 +257,9 @@ background-position: 0 -70px;
 }
 
 .ds4 .face.up {
-    left: 44px;
+    left: 48px;
     top: 0;
-    background-position: -37px 0px;
+    background-position: -22px -43px;
 }
 
 .ds4 .face.down {
@@ -292,8 +293,8 @@ background-position: 0 -70px;
 
 .ds4.white .back, .ds4 .start {
     background-image: url(Start.png);
-    width: 26px;
-    height: 43px;
+    width: 60px;
+    height: 100px;
 }
 
 /*END PS4 White Controller Styling*/
