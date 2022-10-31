@@ -5,6 +5,8 @@
     width: 2023px;
     transform: scale(0.5);
     transform-origin: -1052px -643px;
+    left: 425px;
+    top: 160px;
 }
 
 .ds4.disconnected div {
@@ -37,18 +39,19 @@
 }
 
 .ds4 .bumper {
-    width: 260px;
-    height: 100px;
+    width: 265px;
+    height: 104px;
     background: url(Bumper.png) no-repeat;
     opacity: 0;
 }
 
 .ds4 .bumpers {
     position: absolute;
-    width: 1394px;
-    height: 113px;
-    left: 314px;
-    top: 182px;
+    width: 1404px;
+    height: 117px;
+    left: 309px;
+    top: 183px;
+    transform: scale(0.99);
 }
 
 .ds4 .bumper.pressed {
@@ -147,10 +150,11 @@ background-position: 0 -70px;
 
 .ds4 .abxy {
     position: absolute;
-    width: 580px;
+    width: 583px;
     height: 323px;
-    top: 441px;
-    left: 1491px;
+    top: 437px;
+    left: 1487px;
+    transform: scale(0.98);
 }
 
 .ds4 .button {
@@ -163,31 +167,31 @@ background-position: 0 -70px;
 .ds4 .button.pressed {
     background-position-y: 139px;
     margin-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 16px;
     width: 118px;
     height: 120px;
 }
 
 .ds4 .a {
     background-position: -11px 0;
-    bottom: 30px;
+    bottom: 25px;
     left: 23px;
     width: 121px;
-    height: 137px;
+    height: 136px;
 }
 
 .ds4 .b {
     background-position: -9px 0;
-    top: 24px;
-    right: 308px;
+    top: 26px;
+    right: 309px;
     width: 118px;
-    height: 133px;
+    height: 137px;
 }
 
 .ds4 .x {
     background-position: -636px 0;
-    top: 24px;
-    left: -113px;
+    top: 26px;
+    left: -115px;
     width: 120px;
     height: 135px;
 }
@@ -205,7 +209,7 @@ background-position: 0 -70px;
     width: 684px;
     height: 105px;
     top: 662px;
-    left: 595px;
+    left: 607px;
 }
 
 .ds4 .stick {
@@ -216,11 +220,11 @@ background-position: 0 -70px;
 }
 
 .ds4 .stick.pressed.left {
-    background-position-x: -221px;
+    background-position-x: -237px;
 }
 
 .ds4 .stick.pressed.right {
-    background-position-x: -228px;
+    background-position-x: -237px;
 }
 
 .ds4 .stick.left {
